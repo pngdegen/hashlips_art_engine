@@ -12,7 +12,7 @@ const baseUri = "ipfs://NewUriToReplace";
 const solanaMetadata = {
   symbol: "",
   seller_fee_basis_points: 500, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.moutohorawhale.com",
+  external_url: "https://www.moutohorawhales.com",
   creators: [
     {
       address: "C9wiZpZuBEcFVcaJk6vHe8THWZ3C4qQbmAAihySpUZam",
