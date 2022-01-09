@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.sol;
 
 // General metadata for Ethereum
-const namePrefix = "Moutohora Whale";
-const description = "The most exclusive gathering of whales in the Bay of Plenty coast of New Zealand's North Island since 2008";
+const namePrefix = "REKT";
+const description = "Keep calm and get paid by getting rekt.";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
   symbol: "",
-  seller_fee_basis_points: 500, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.moutohorawhales.com",
+  seller_fee_basis_points: 690, // Define how much % you want from secondary market sales 1000 = 10%
+  external_url: "https://www.get69rekt.com",
   creators: [
     {
-      address: "C9wiZpZuBEcFVcaJk6vHe8THWZ3C4qQbmAAihySpUZam",
+      address: "DBGWDALFxDWMGH4nTjDxkKKQNiKNWddj6x5WdUAFS1w6",
       share: 100,
     },
   ],
@@ -24,13 +24,13 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 555,
+    growEditionSizeTo: 690,
     layersOrder: [
-      { name: "Background" },
-      { name: "Species" },
-      { name: "Eye" },
-      { name: "Head" },
-      { name: "Accessories" },
+      { name: "Margin" },
+      { name: "Trade" },
+      { name: "Trading Pair" },
+      { name: "ROE" },
+      { name: "Exchange" },
     ],
   },
 ];
