@@ -12,7 +12,7 @@ const baseUri = "ipfs://NewUriToReplace";
 const solanaMetadata = {
   symbol: "",
   seller_fee_basis_points: 690, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.get69rekt.com",
+  external_url: "https://www.getrekted.com",
   creators: [
     {
       address: "DBGWDALFxDWMGH4nTjDxkKKQNiKNWddj6x5WdUAFS1w6",
@@ -26,11 +26,11 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 690,
     layersOrder: [
-      { name: "Margin" },
-      { name: "Trade" },
-      { name: "Trading Pair" },
-      { name: "ROE" },
-      { name: "Exchange" },
+      { name: "Background" },
+      { name: "Species" },
+      { name: "Eye" },
+      { name: "Head" },
+      { name: "Accessories" },
     ],
   },
 ];
